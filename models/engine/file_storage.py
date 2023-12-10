@@ -25,6 +25,10 @@ class FileStorage:
     __file_path = "file.json"
     __objects = {}
 
+    def __init__(self) -> None:
+        """Empty COnstructor"""
+        pass
+
     def all(self):
         """returns the stored dict"""
 
